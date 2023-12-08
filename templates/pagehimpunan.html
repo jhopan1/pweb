@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Teks dan Gambar Berdampingan</title>
+  <!---Custom Css File!--->
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <header>
+        <h1>HIMTEK</h1>
+        <div class="container1">
+            <nav>
+                <div class="buttons">
+                    <ul>
+                        <li><a href="/himpunan/" class="btnback">Back</a></li>
+                    </ul>
+                </div>
+            </nav>
+          </div>
+    </header>                
+        <section class="about-us">
+            <div class="about">
+                <img src="{{ url_for('static', filename='img/g1.png')}}" alt="Gambar" class="pic">
+            <!--<img src="girl.png" class="pic">-->
+            <div class="text">
+                <h2>HIMTEK</h2>
+                <h5>Himpunan Teknik Komputer</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus ad sed harum itaque ullam enim quas.</p>
+            </div>
+            </div>
+        </section>
+        <div class="container">
+            <button class="right-btn">Pembayaran</button>
+        </div>
+    <footer>
+        <p>
+            <div class="px-2 bg-light "><marquee class="py-3">Meyzel Jhofany Yuana 22.83.0823 | Muhammad Fahrun Nasyit 22.83.0790 | Mugni Saleh Maheswara 22.83.0814 | Faradilla Belva Nurwansya 22.83.0800 | Firma Danu Kusuma 22.83.0806</marquee></div>
+        </p>
+    </footer>
+</body>
+</html>
